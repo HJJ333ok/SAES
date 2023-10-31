@@ -24,3 +24,18 @@ SAES
 对于ASCII码的输入
 
 ![4](https://github.com/HJJ333ok/SAES/assets/129488158/ae7d7103-1062-4e1d-a5d2-27744defc5f9)
+
+3.4 第4关：多重加密
+
+3.4.1 双重加密将S-AES算法通过双重加密进行扩展，分组长度仍然是16 bits，但密钥长度为32 bits。
+
+对代码进行拓展，使密钥长度为32bit，得出结果如下
+
+![BCNQVW8RG73Z( 0AG8BVG95](https://github.com/HJJ333ok/SAES/assets/129488158/e9e7ad12-0497-4f5a-9b80-29d6203ead44)
+![(5BA33SD_{FO0BPK1SYDVPJ](https://github.com/HJJ333ok/SAES/assets/129488158/464f4cd0-b74b-467b-8da7-2ceb2aaaffe4)
+
+
+3.4.2 中间相遇攻击假设你找到了使用相同密钥的明、密文对(一个或多个)，请尝试使用中间相遇攻击的方法找到正确的密钥Key(K1+K2)。
+
+
+3.4.3 三重加密将S-AES算法通过三重加密进行扩展，下面两种模式选择一种完成：(1)按照32 bits密钥Key(K1+K2)的模式进行三重加密解密，(2)使用48bits(K1+K2+K3)的模式进行三重加解密。
