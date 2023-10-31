@@ -39,3 +39,8 @@ SAES
 
 
 3.4.3 三重加密将S-AES算法通过三重加密进行扩展，下面两种模式选择一种完成：(1)按照32 bits密钥Key(K1+K2)的模式进行三重加密解密，(2)使用48bits(K1+K2+K3)的模式进行三重加解密。
+
+选择模式一进行三重加密
+
+![(G8_)YDXDY639S 78%_}MXC](https://github.com/HJJ333ok/SAES/assets/129488158/9ff75f94-bc0e-4825-8c0c-2f1c2414efcb)
+
